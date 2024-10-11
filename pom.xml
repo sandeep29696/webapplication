@@ -18,4 +18,14 @@
   <build>
     <finalName>02-Maven-WebApp</finalName>
   </build>
+  <distributionManagement>
+      <snapshotRepository>
+        <id>jfrog-snapshots</id>
+        <url>https://sandeep1.jfrog.io/artifactory/web-application/</url>
+      </snapshotRepository>
+      <repository>
+        <id>jfrog-releases</id>
+        <url>https://sandeep1.jfrog.io/artifactory/web-application/</url>
+      </repository>
+    </distributionManagement>
 </project>
